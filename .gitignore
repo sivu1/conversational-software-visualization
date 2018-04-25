@@ -1,1 +1,4 @@
 .idea/
+service-answer/.eggs/
+service-question/.eggs/
+service-answer/sofia_service_answer.egg-info/
