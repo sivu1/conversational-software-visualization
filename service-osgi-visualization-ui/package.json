@@ -7,8 +7,8 @@
   },
   "scripts": {
     "test": "npm install  && ./node_modules/.bin/mocha ./test",
-    "install-osgi-visualization": "npm install git+https://gogs.dlr-gogs.default.conts.de/stefan/OSGiVisualization.git",
-    "install-osgi-visualization-secure": "npm install \"git+http://$gitUserName:$gitUserPass@gogs.dlr-gogs.default.conts.de/stefan/OSGiVisualization.git\"",
+    "install-osgi-visualization": "npm install git+https://gitlab-ee.sc.dlr.de:sant_si/osgi-visualization-d3.git",
+    "install-osgi-visualization-secure": "npm install \"git+http://$gitUserName:$gitUserPass@gitlab-ee.sc.dlr.de/sant_si/osgi-visualization-d3.git\"",
     "start": "npm install --production && npm run install-osgi-visualization-secure && node server.js"
   },
   "devDependencies": {
